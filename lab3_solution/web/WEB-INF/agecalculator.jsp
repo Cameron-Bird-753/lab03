@@ -10,12 +10,12 @@
         <h1>Age Calculator</h1>
             <form method="POST">
             <label>Enter your age:</label>
-            <input type="text" name="age" value=""></input>
+            <input type="text" name="age" value="${userInput}"></input>
             <br>
             <input type="submit" value="Age next Birthday">
         </form>
              <p>${message}</p>
-             <a href="arithmeticcalculator">Arithmetic Calculator</a>
+             <a href="arithmetic">Arithmetic Calculator</a>
      
     </body>
 </html>
